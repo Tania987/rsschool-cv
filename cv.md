@@ -16,19 +16,19 @@ const sequenceSum = (begin, end) => {
       return begin + sequenceSum(begin + 1, end);    
      export default sequenceSum;  
 ```
+
 ```javascript
-export default (str) => {
-  let i = length(str) - 1;
-
-  let result = '';
-  while (i >= 0) {
-    result += str[i];
-    i -= 1;
+const check = (a, b, c, d) => {
+  if (a === c && b === d) {
+    return 2;
   }
-
-  return result;
+  else if ((a > b && c > d) || (a === b && c === d) || (a < b && c < d)) {
+    return 1;
+  }
+  else return 0;
 };
 ```
+
 1. I have no programming experience.
 1. Education:
 * [Hexlet](https://ru.hexlet.io/courses/programming-basics);
