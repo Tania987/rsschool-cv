@@ -16,24 +16,6 @@ const sequenceSum = (begin, end) => {
       return begin + sequenceSum(begin + 1, end);    
      export default sequenceSum;  
 ```
-```javascript    
-const calc = (operation, a, b) => {
-  switch (operation) {
-    case '+':
-      return a + b;
-    case '-':
-      return a - b;
-    case '/':
-      return a / b;
-    case '*':
-      return a * b;
-    default:
-      return NaN;
-  }
-};
-
-export default calc;
-```
 1. I have no programming experience.
 1. Education:
 * [Hexlet](https://ru.hexlet.io/courses/programming-basics);
