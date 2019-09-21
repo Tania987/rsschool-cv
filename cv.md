@@ -4,34 +4,39 @@
 E-mail: tatsianadmitruk@gmail.com;
 1. My goal is to work in the IT field, solve interesting tasks and realize my creative potential. I like to study and communicate with interesting people, real professionals in their field.
 1. Basic C, JS, HTML and CSS;
-1. Code examples:  
-> **JS**  
->const sequenceSum = (begin, end) => {    
->    if (begin > end) {    
->       return NaN;    
->      }    
->      if (begin === end) {    
->        return begin;    
->      }    
->      return begin + sequenceSum(begin + 1, end);    
->     export default sequenceSum;  
->
-> **C** *First 15 fibonacci numbers*    
->#include<stdio.h>    
->      
->int main(void)     
->{    
->    int first_digit = 0, second_digit = 1, fib, ctr;      
->    printf("%i\n%i\n", first_digit, second_digit);    
->    for (ctr = 0; ctr < 13; ++ctr)    
->    {      
->       fib = first_digit + second_digit;    
->       printf("%i\n", fib);    
->       first_digit = second_digit;  
->       second_digit = fib;    
->   }  
->   return 0;    
->} 
+1. Code examples (JS):  
+```javascript  
+const sequenceSum = (begin, end) => {    
+    if (begin > end) {    
+       return NaN;    
+      }    
+      if (begin === end) {    
+        return begin;    
+      }    
+      return begin + sequenceSum(begin + 1, end);    
+     export default sequenceSum;  
+```
+```javascript    
+const calc = (operation, a, b) => {
+  switch (operation) {
+    case '+':
+      return a + b;
+    case '-':
+      return a - b;
+    case '/':
+      return a / b;
+    case '*':
+      return a * b;
+    default:
+      return NaN;
+  }
+};
 
+export default calc;
+```
 1. I have no programming experience.
-1.   
+1. Education:
+* [Hexlet](https://ru.hexlet.io/courses/programming-basics);
+* [Freecodecamp](https://learn.freecodecamp.org/);
+* [CS50](https://javarush.ru/quests/QUEST_HARVARD_CS50);
+1. English Level A2   
