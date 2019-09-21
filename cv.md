@@ -1,10 +1,10 @@
 # CV
 1. Tatsiana Dmitruk
-1. Mobile: +375259288569;   
+2. Mobile: +375259288569;   
 E-mail: tatsianadmitruk@gmail.com;
-1. My goal is to work in the IT field, solve interesting tasks and realize my creative potential. I like to study and communicate with interesting people, real professionals in their field.
-1. Basic C, JS, HTML and CSS;
-1. Code examples (JS):  
+3. My goal is to work in the IT field, solve interesting tasks and realize my creative potential. I like to study and communicate with interesting people, real professionals in their field.
+4. Basic C, JS, HTML and CSS;
+5. Code examples (JS):  
   ```javascript  
   const sequenceSum = (begin, end) => {    
     if (begin > end) {    
@@ -28,10 +28,10 @@ E-mail: tatsianadmitruk@gmail.com;
     else return 0;
   };
   ```
-  
-1. I have no programming experience.
-1. Education:
+
+6. I have no programming experience.
+7. Education:
 * [Hexlet](https://ru.hexlet.io/courses/programming-basics);
 * [Freecodecamp](https://learn.freecodecamp.org/);
 * [CS50](https://javarush.ru/quests/QUEST_HARVARD_CS50);
-1. English Level A2   
+8. English Level A2   
