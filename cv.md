@@ -4,31 +4,18 @@
 E-mail: tatsianadmitruk@gmail.com;
 1. My goal is to work in the IT field, solve interesting tasks and realize my creative potential. I like to study and communicate with interesting people, real professionals in their field.
 1. Basic C, JS, HTML and CSS;
-1. Code examples (JS):    
-  
+1. Code example (JS):  
   ```javascript  
-  const check = (a, b, c, d) => {  
-    if (a === c && b === d) {  
-      return 2;  
-    }  
-    else if ((a > b && c > d) || (a === b && c === d) || (a < b && c < d)) {  
-      return 1;  
-    }  
-    else return 0;  
-  };  
-  ```
-  ```javascript  
-  const sequenceSum = (begin, end) => {  
-    if (begin > end) {  
-       return NaN;  
-      }  
-      if (begin === end) {  
-        return begin;  
-      }  
-      return begin + sequenceSum(begin + 1, end);  
+  const sequenceSum = (begin, end) => {    
+    if (begin > end) {    
+       return NaN;    
+      }    
+      if (begin === end) {    
+        return begin;    
+      }    
+      return begin + sequenceSum(begin + 1, end);    
      export default sequenceSum;  
-  ```      
-    
+  ```
 1. I have no programming experience.
 1. Education:
 * [Hexlet](https://ru.hexlet.io/courses/programming-basics);
