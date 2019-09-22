@@ -16,7 +16,6 @@ E-mail: tatsianadmitruk@gmail.com;
       return begin + sequenceSum(begin + 1, end);    
      export default sequenceSum;  
   ```
-  
 1. I have no programming experience.
 1. Education:
 * [Hexlet](https://ru.hexlet.io/courses/programming-basics);
