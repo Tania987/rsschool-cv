@@ -1,0 +1,50 @@
+body {
+    font-size: 16px;
+}
+
+.img {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(25, 25, 53);
+}
+
+table {
+    border-collapse: collapse;
+    border: 5px solid rgb(25, 25, 53); 
+    width: 700px;
+    text-align: left;
+    background-color: rgb(71, 72, 138);
+    color: whitesmoke;
+}
+
+.wrapper {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+tr {
+    border: 5px solid rgb(25, 25, 53);  
+}
+
+.name {
+    font-size: 20px;
+}
+
+th {
+    padding: 10px;
+}
+
+blockquote {
+    font-size: 12px;
+}
+
+td {
+    padding: 10px;
+}
+
+.educ {
+    text-align: center;
+}
