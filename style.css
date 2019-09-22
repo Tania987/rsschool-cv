@@ -48,3 +48,7 @@ td {
 .educ {
     text-align: center;
 }
+
+.italic {
+    font-style: italic;
+}
